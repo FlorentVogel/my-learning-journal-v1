@@ -1,0 +1,54 @@
+/* TYPOGRAPHY */
+
+input, textarea, #submit-btn {
+    font-size: 2rem;
+    outline: none;
+}
+
+label {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+textarea {
+    text-decoration: none;
+    font-family: inherit;
+    resize: none;
+}
+
+/* LAYOUT */
+
+.form-contact-container {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea, #submit-btn {
+    width: 100%;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+textarea {
+    height: 250px;
+}
+
+/* BUTTONS */
+
+#submit-btn {
+    color: #141414;
+    font-weight: 800;
+    margin-bottom: 3em;
+    background-color: #ECECEC;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: #141414;
+    color: #FFFFFF;
+}
